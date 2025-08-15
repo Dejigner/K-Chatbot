@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+klarov01/
+
+# Logs and cache
+logs/
+.cache/
+.gradio/
+
+# Local data/models (do not commit large files)
+embeddings/
+models/
+mistral_models/
+
+# Secrets
+.env
+*.secret
+secrets.json
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,77 @@
+C:\Users\Janna\Desktop\Career_25\Klaro\klaro_academic_chatbot\klaro>pip install -r requirements.txt
+Collecting PyMuPDF==1.23.14 (from -r requirements.txt (line 1))
+  Using cached PyMuPDF-1.23.14-cp312-none-win_amd64.whl.metadata (3.4 kB)
+Collecting sentence-transformers==2.2.2 (from -r requirements.txt (line 2))
+  Using cached sentence-transformers-2.2.2.tar.gz (85 kB)
+  Preparing metadata (setup.py) ... done
+Collecting langchain==0.1.0 (from -r requirements.txt (line 3))
+  Using cached langchain-0.1.0-py3-none-any.whl.metadata (13 kB)
+Collecting llama-cpp-python==0.2.20 (from -r requirements.txt (line 4))
+  Using cached llama_cpp_python-0.2.20.tar.gz (8.7 MB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting faiss-cpu==1.7.4 (from -r requirements.txt (line 5))
+  Using cached faiss-cpu-1.7.4.tar.gz (57 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting gradio==4.8.0 (from -r requirements.txt (line 6))
+  Using cached gradio-4.8.0-py3-none-any.whl.metadata (17 kB)
+Collecting numpy==1.24.3 (from -r requirements.txt (line 7))
+  Using cached numpy-1.24.3.tar.gz (10.9 MB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... error
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [33 lines of output]
+      Traceback (most recent call last):
+        File "C:\Users\Janna\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 353, in <module>
+          main()
+        File "C:\Users\Janna\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\Janna\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 112, in get_requires_for_build_wheel
+          backend = _build_backend()
+                    ^^^^^^^^^^^^^^^^
+        File "C:\Users\Janna\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 77, in _build_backend
+          obj = import_module(mod_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\Janna\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py", line 90, in import_module
+          return _bootstrap._gcd_import(name[level:], package, level)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+        File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+        File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+        File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+        File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+        File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+        File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+        File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+        File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+        File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+        File "C:\Users\Janna\AppData\Local\Temp\pip-build-env-46f73cm3\overlay\Lib\site-packages\setuptools\__init__.py", line 16, in <module>
+          import setuptools.version
+        File "C:\Users\Janna\AppData\Local\Temp\pip-build-env-46f73cm3\overlay\Lib\site-packages\setuptools\version.py", line 1, in <module>
+          import pkg_resources
+        File "C:\Users\Janna\AppData\Local\Temp\pip-build-env-46f73cm3\overlay\Lib\site-packages\pkg_resources\__init__.py", line 2172, in <module>       
+          register_finder(pkgutil.ImpImporter, find_on_path)
+                          ^^^^^^^^^^^^^^^^^^^
+      AttributeError: module 'pkgutil' has no attribute 'ImpImporter'. Did you mean: 'zipimporter'?
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 24.2 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+C:\Users\Janna\Desktop\Career_25\Klaro\klaro_academic_chatbot\klaro>
